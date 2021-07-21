@@ -121,8 +121,8 @@ p {
     padding: 0.5rem;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
-    border: 1px solid var(--blue);
-    background-color: #4155a73d;
+    border: 1px solid var(--lightgreen);
+    background-color: var(--lightgreen);
 }
 
 /* mobile sidebar */
@@ -204,9 +204,6 @@ p {
 .locationsection .expand {
     font-size: 1rem;
 }
-#loctext{
-    color: var(--lightgreen);
-}
 
 /* Smartphones ----------- */
 
@@ -236,9 +233,8 @@ p {
     #locationoffcanvas {
         height: 41%;
     }
-   
     /* location sidebar under header */
-    .locationsection{
+    .locationsection {
         display: none;
     }
 }
@@ -261,7 +257,7 @@ p {
         height: 41%;
     }
     /* location sidebar under header */
-    .locationsection{
+    .locationsection {
         display: none;
     }
 }

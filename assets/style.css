@@ -1,0 +1,78 @@
+/* css common for all */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+:root {
+    --red: #FD5E53;
+    --white: #F9FCFB;
+    --lightgreen: #B0EACD;
+    --green: #21BF73;
+}
+
+/* navbar css */
+
+.NavbarHome {
+    background-color: var(--red);
+}
+
+#homenavbar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+#homenavbar .material-icons {
+    font-size: 1.7rem;
+    margin-left: 0.3rem;
+    padding: 0px 6px 0px 0px;
+}
+
+.vegologo img {
+    height: 2.1rem;
+    float: right;
+}
+
+
+
+/* Smartphones ----------- */
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+    /* navbar css */
+    #homenavbar .nav-link {
+        display: none;
+    }
+    .searchbar{
+        margin-top: 0.9rem;
+        border: none;
+    }
+    
+}
+
+/* iPads ----------- */
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-device-width: 1025px) {
+    /* navbar css */
+    .text-small {
+        font-size: 0.9rem;
+    }
+    .homelink-active {
+        text-decoration: underline;
+    }
+    .searchbar{
+        display: none;
+    }
+}

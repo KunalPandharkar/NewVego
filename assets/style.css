@@ -193,12 +193,12 @@ p {
 
 .locationsection p {
     font-size: 0.9rem;
-    padding: 0.5rem 0rem 0.5rem 0.3rem;
+    padding: 0.6rem 0rem 0.6rem 0.3rem;
 }
 
 .locationsection .gpsicon {
     font-size: 1.4rem;
-    padding: 0.5rem 0rem 0.5rem 0.3rem;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 
 .locationsection .expand {
@@ -207,7 +207,7 @@ p {
 
 /* Smartphones ----------- */
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 689px) {
     /* navbar */
     .offcanvas-collapse {
         position: fixed;
@@ -221,7 +221,7 @@ p {
 
 /* iPads ----------- */
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 690px) and (max-device-width: 1211px) {
     /* navbar */
     .searchbargrp {
         width: 60%;
@@ -233,11 +233,16 @@ p {
     #locationoffcanvas {
         height: 41%;
     }
+   
+    /* location sidebar under header */
+    .locationsection{
+        display: none;
+    }
 }
 
 /* Desktops and laptops ----------- */
 
-@media only screen and (min-device-width: 1025px) {
+@media only screen and (min-device-width: 1212px) {
     /* navbar */
     .searchbargrp {
         width: 30%;
@@ -251,5 +256,9 @@ p {
     /* location sidebar bottom */
     #locationoffcanvas {
         height: 41%;
+    }
+    /* location sidebar under header */
+    .locationsection{
+        display: none;
     }
 }

@@ -204,6 +204,9 @@ p {
 .locationsection .expand {
     font-size: 1rem;
 }
+#loctext{
+    color: var(--lightgreen);
+}
 
 /* Smartphones ----------- */
 

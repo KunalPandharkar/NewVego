@@ -20,59 +20,204 @@ a, a:hover {
     --green: #21BF73;
 }
 
-/* navbar css */
+/* header start */
 
-.NavbarHome {
+/* cutom header */
+
+.redbg {
     background-color: var(--red);
+    color: white;
 }
 
-#homenavbar .nav-link {
+#sb-toggle {
+    font-size: 14px;
+}
+
+#vego-logo {
+    margin-right: auto;
+    margin-left: 0.6rem;
+}
+
+#vego-logo img {
+    height: 1.8rem;
+}
+
+/* searchbar */
+
+.searchbargrp {
+    width: 100%;
+    background-color: var(--blue);
+    padding: 7px 0px 0px 0px;
+}
+
+.searchbargrp input {
+    border: none;
+}
+
+#sbarbtn {
+    background-color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-#homenavbar .material-icons {
-    font-size: 1.7rem;
-    margin-left: 0.3rem;
-    padding: 0px 6px 0px 0px;
+.searchbargrp input::placeholder {
+    font-size: 14px;
 }
 
-.vegologo img {
-    height: 2.1rem;
-    float: right;
+/* language change */
+
+#langchange {
+    font-size: 13px;
 }
 
+#langchange:hover>.dropdown-menu {
+    display: block;
+}
 
+/* all nav items to be in a flex box */
+
+#desknavitems {
+    display: flex;
+    padding-left: 0.8rem;
+    justify-content: space-around;
+}
+
+#desknavitems li {
+    list-style: none;
+}
+
+.homelink-active {
+    text-decoration: underline;
+}
+
+#desknavitems .navlinks {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.navlinks .material-icons {
+    margin-right: 0.4rem;
+}
+
+/* header end */
+
+/* location bottom */
+
+#locationoffcanvas input::placeholder {
+    font-size: 12px;
+}
+
+#locationoffcanvas button {
+    font-size: 12px;
+}
+
+#defaultaddress {
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid var(--blue);
+    background-color: #4155a73d;
+}
+
+/* mobile sidebar */
+
+/* sidebar in mobile and ipad */
+
+#mob-sidebar {
+    width: 75%;
+    overflow-y: scroll;
+}
+
+#mobsidebarheader {
+    background-color: var(--lightgreen);
+    padding: 0.8rem;
+    padding-top: 0.9rem;
+    box-shadow: -1px -1px 3px var(--lightgreen);
+}
+
+#mobsidebarheader a {
+    font-size: 12px;
+    color: black;
+}
+
+#mobsidebarusername p {
+    color: black;
+    margin-bottom: 0px;
+    font-weight: 550;
+}
+
+/* sidebar link items */
+
+#mobsidebaritems {
+    font-size: 14px;
+    background-color: #f3f3f3;
+}
+
+.mobsidebaritem {
+    padding: 0.6rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: #fff;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(88, 88, 88);
+    padding-bottom: 0px;
+}
+
+.mobsidebaritem span {
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 4px;
+    padding-right: 6px;
+}
+
+.mobsidebaritem a {
+    margin-bottom: 1.1rem;
+    font-weight: 550;
+}
 
 /* Smartphones ----------- */
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
-    /* navbar css */
-    #homenavbar .nav-link {
-        display: none;
+    /* navbar */
+    .offcanvas-collapse {
+        position: fixed;
+        visibility: hidden;
     }
-    .searchbar{
-        margin-top: 0.9rem;
-        border: none;
+    /* location bottom model */
+    #locationoffcanvas {
+        height: 47%;
     }
-    
 }
 
 /* iPads ----------- */
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
+    /* navbar */
+    .offcanvas-collapse {
+        position: fixed;
+        visibility: hidden;
+    }
+}
 
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-device-width: 1025px) {
-    /* navbar css */
-    .text-small {
-        font-size: 0.9rem;
+    /* navbar */
+    .searchbargrp {
+        width: 30%;
+        margin-top: -4px;
+        margin-left: 1rem;
     }
-    .homelink-active {
-        text-decoration: underline;
+    /* language change in desktop */
+    #langchangeitems {
+        font-size: 13px;
     }
-    .searchbar{
-        display: none;
+    /* location sidebar bottom */
+    #locationoffcanvas {
+        height: 41%;
     }
 }

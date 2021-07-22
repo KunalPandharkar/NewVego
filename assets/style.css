@@ -148,20 +148,18 @@ p {
 }
 
 #mobsidebarheader {
-    background-color: var(--lightgreen);
+    background-color: var(--green);
     padding: 0.8rem;
     padding-top: 0.9rem;
-    box-shadow: -1px -1px 3px var(--lightgreen);
 }
 
 #mobsidebarheader a {
     font-size: 12px;
-    color: black;
 }
 
-#mobsidebarusername p {
+#mobsidebarusername em {
     margin-bottom: 0px;
-    font-weight: 510;
+    color: white;
 }
 
 #mobsidebarusername span {
@@ -170,6 +168,11 @@ p {
 
 #mobsidebarusername {
     margin-top: 4rem;
+}
+
+.mobno {
+    color: var(--lightgreen);
+    font-size: 0.9rem;
 }
 
 /* sidebar link items */
@@ -246,14 +249,15 @@ p {
 .usernamepedit h5 {
     font-size: 1rem;
 }
+
 .usernamepedit p {
     font-size: 0.82rem;
 }
-.bd-example button{
+
+.bd-example button {
     background: var(--green);
     color: white;
 }
-
 
 /* Smartphones ----------- */
 

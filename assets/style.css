@@ -24,6 +24,23 @@ p {
     margin: 0;
 }
 
+/* all site heading */
+
+.siteheading {
+    padding: 1.1rem 0rem 0rem 0.8rem;
+}
+
+.siteheading h6 {
+    font-weight: 550;
+}
+
+.headingunderline {
+    border-top: 2px solid var(--green);
+    width: 3rem;
+    margin-left: 0.8rem;
+    margin-bottom: 1.6rem;
+}
+
 /* header start */
 
 /* cutom header */
@@ -145,11 +162,14 @@ p {
 #mobsidebarusername p {
     margin-bottom: 0px;
     font-weight: 510;
-    margin-top: 4rem;
 }
 
 #mobsidebarusername span {
     font-size: 1rem;
+}
+
+#mobsidebarusername {
+    margin-top: 4rem;
 }
 
 /* sidebar link items */
@@ -219,6 +239,15 @@ p {
 
 .pc {
     display: none;
+}
+
+/* user profile edit sidebar */
+
+.usernamepedit h5 {
+    font-size: 1rem;
+}
+.usernamepedit p {
+    font-size: 0.82rem;
 }
 
 /* Smartphones ----------- */

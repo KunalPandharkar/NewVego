@@ -145,6 +145,11 @@ p {
 #mobsidebarusername p {
     margin-bottom: 0px;
     font-weight: 510;
+    margin-top: 4rem;
+}
+
+#mobsidebarusername span {
+    font-size: 1rem;
 }
 
 /* sidebar link items */
@@ -240,8 +245,16 @@ p {
     .mobile {
         display: block;
     }
-    #myCarousel{
-        margin-top:0.3rem;
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+    /* user profile canvas */
+    #offcanvasRight {
+        margin-top: 3.4rem;
+        width: 100%;
     }
 }
 
@@ -251,6 +264,9 @@ p {
     /* navbar */
     .searchbargrp {
         width: 60%;
+    }
+    .homenavtoggle {
+        display: none;
     }
     #desknavitems {
         margin-top: 1rem;

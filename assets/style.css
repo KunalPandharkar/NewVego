@@ -236,8 +236,6 @@ p {
 
 /* Home Carousel */
 
-
-
 /* user profile edit sidebar */
 
 .usernamepedit h5 {
@@ -281,6 +279,7 @@ p {
 
 .service p {
     font-size: 0.8rem;
+    margin-top:0.2rem;
 }
 
 .emg {
@@ -308,8 +307,6 @@ p {
     .carousel-item {
         height: 9rem;
     }
-  
-    
     .carousel-control-prev {
         display: none;
     }
@@ -347,8 +344,6 @@ p {
     .carousel-item {
         height: 15rem;
     }
-   
-    
     /* user profile page */
     .userprofile {
         padding: 6rem;
@@ -383,7 +378,6 @@ p {
     .carousel-item {
         height: 19rem;
     }
-   
     /* user profile page */
     .userprofile {
         padding: 9rem;

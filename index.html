@@ -286,7 +286,7 @@
         <!-- user profile canvas -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
             data-bs-scroll="true" data-bs-backdrop="false">
-            <div class="offcanvas-header pt-0">
+            <div class="offcanvas-header pt-0 pb-0">
                 <div class="">
                     <div class="siteheading">
                         <h6>
@@ -298,7 +298,7 @@
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body pt-0">
                 <div class="card">
                     <div class="card-body usernamepedit">
                         <h5 class="card-title">Kunal Pandharkar</h5>
@@ -306,10 +306,47 @@
                         <p class="card-text">Cidco N-6 , Adarsh Colony, Purna, Parbhani - 431512</p>
                     </div>
                     <div class="card-footer text-muted">
-                       <small>Edited 2 days ago</small> 
+                        <small>Edited 2 days ago</small>
                     </div>
                 </div>
-
+                <article class="my-3" id="floating-labels">
+                    <div>
+                        <div class="bd-example">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Kunal Panadharkar">
+                                    <label for="floatingInput">Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Aurangabad">
+                                    <label for="floatingInput">City</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="7774843561">
+                                    <label for="floatingInput">Mobile 1</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="---">
+                                    <label for="floatingInput">Mobile 2</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Cidco-N6, Adarsh colony, Purna, Parbhani - 431512">
+                                    <label for="floatingInput">Address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" value="***********">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
         <!-- end user profile canvas -->

@@ -236,13 +236,7 @@ p {
 
 /* Home Carousel */
 
-.mobile {
-    display: none;
-}
 
-.pc {
-    display: none;
-}
 
 /* user profile edit sidebar */
 
@@ -314,9 +308,8 @@ p {
     .carousel-item {
         height: 9rem;
     }
-    .mobile {
-        display: block;
-    }
+  
+    
     .carousel-control-prev {
         display: none;
     }
@@ -354,9 +347,8 @@ p {
     .carousel-item {
         height: 15rem;
     }
-    .mobile {
-        display: block;
-    }
+   
+    
     /* user profile page */
     .userprofile {
         padding: 6rem;
@@ -391,9 +383,7 @@ p {
     .carousel-item {
         height: 19rem;
     }
-    .pc {
-        display: block;
-    }
+   
     /* user profile page */
     .userprofile {
         padding: 9rem;

@@ -278,6 +278,7 @@ p {
     width: 6rem;
     margin-bottom: 0.6rem;
     margin-top: 0.6rem;
+    border-radius: 8px;
 }
 
 .service img {
@@ -287,7 +288,8 @@ p {
 .service p {
     font-size: 0.8rem;
 }
-.emg{
+
+.emg {
     background-color: var(--red);
 }
 

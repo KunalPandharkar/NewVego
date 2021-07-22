@@ -289,10 +289,9 @@ p {
     .carousel-control-next {
         display: none;
     }
-    /* user profile canvas */
-    #offcanvasRight {
-        margin-top: 3.4rem;
-        width: 100%;
+    /* user profile page */
+    .userprofile {
+        padding: 1rem;
     }
 }
 
@@ -323,6 +322,10 @@ p {
     }
     .mobile {
         display: block;
+    }
+    /* user profile page */
+    .userprofile {
+        padding: 6rem;
     }
 }
 
@@ -356,5 +359,17 @@ p {
     }
     .pc {
         display: block;
+    }
+    /* user profile page */
+    .userprofile {
+        padding: 9rem;
+    }
+    /* all site heading */
+    .siteheading {
+        padding: 1.5rem 0rem 0rem 1rem;
+    }
+    .siteheading h6 {
+        font-size: 1.3rem;
+        font-weight: 550;
     }
 }

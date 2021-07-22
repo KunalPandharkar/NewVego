@@ -53,6 +53,7 @@
                 </div>
                 <!-- lang end -->
 
+
                 <!-- searchbar -->
                 <div class="input-group searchbargrp">
                     <input type="text" class="form-control" placeholder="Search For Garages and Service Centers"
@@ -145,24 +146,10 @@
                             Purna - 431512
                         </a>
                     </li>
-
-
                 </div>
-
-
-
         </nav>
 
-        <div class="locationsection" data-bs-toggle="offcanvas" data-bs-target="#locationoffcanvas"
-            aria-controls="locationoffcanvas">
-            <span class="material-icons gpsicon">
-                gps_fixed
-            </span>
-            <p>Kunal Pandharkar - <span class="text-secondary">Adarsh Colony, Purna...</span></p>
-            <span class="material-icons expand">
-                expand_more
-            </span>
-        </div>
+
 
         <!-- sidebar in mobile start -->
         <div class="offcanvas offcanvas-start" tabindex="-1" id="mob-sidebar" aria-labelledby="mob-sidebarLabel">
@@ -175,7 +162,7 @@
                     </span>
                 </a>
                 <div id="mobsidebarusername" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                    aria-controls="offcanvasRight" onclick='location.href = "userprofile.html"'>
+                    aria-controls="offcanvasRight">
                     <p><em>Hello, Kunal Pandharkar</em> <span class="material-icons text-white-50">edit_note</span></p>
                     <p class="mobno">7774843561</p>
                 </div>
@@ -287,50 +274,79 @@
     </section>
     <!-- header - navigation bar end -->
 
-
-    <!-- home carousel -->
+    <!-- user profile -->
     <section>
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner mobile">
-                <div class="carousel-item active">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+        <!-- user profile canvas -->
+        <div class=" pt-0 pb-0">
+            <div class="">
+                <div class="siteheading">
+                    <h6>
+                        User Profile
+                    </h6>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
-                </div>
+                <div class="headingunderline"></div>
             </div>
 
-            <div class="carousel-inner pc">
-                <div class="carousel-item active">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+
+            <div class="userprofile pt-0">
+                <div class="card">
+                    <div class="card-body usernamepedit">
+                        <h5 class="card-title">Kunal Pandharkar</h5>
+                        <p class="card-text">7774843561</p>
+                        <p class="card-text">Cidco N-6 , Adarsh Colony, Purna, Parbhani - 431512</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small>Edited 2 days ago</small>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
-                </div>
+                <article class="my-3" id="floating-labels">
+                    <div>
+                        <div class="bd-example">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Kunal Panadharkar">
+                                    <label for="floatingInput">Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Aurangabad">
+                                    <label for="floatingInput">City</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="7774843561">
+                                    <label for="floatingInput">Mobile 1</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="---">
+                                    <label for="floatingInput">Mobile 2</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com"
+                                        value="Cidco-N6, Adarsh colony, Purna, Parbhani - 431512">
+                                    <label for="floatingInput">Address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" value="***********">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <div class="d-grid mt-4">
+                                    <button class="btn" type="button">Save</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </article>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+        <!-- end user profile canvas -->
     </section>
-    <!-- home carousel end -->
+    <!-- end user profile -->
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

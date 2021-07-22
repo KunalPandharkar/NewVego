@@ -75,9 +75,7 @@ p {
     font-size: 13px;
 }
 
-#langchange:hover>.dropdown-menu {
-    display: block;
-}
+
 
 /* all nav items to be in a flex box */
 
@@ -149,7 +147,7 @@ p {
 #mobsidebarusername p {
     color: black;
     margin-bottom: 0px;
-    font-weight: 550;
+    font-weight: 510;
 }
 
 /* sidebar link items */
@@ -180,7 +178,7 @@ p {
 
 .mobsidebaritem a {
     margin-bottom: 1.1rem;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 /* location section */
@@ -205,6 +203,11 @@ p {
     font-size: 1rem;
 }
 
+ /* langauge option in mobile */
+ .langmob{
+    display: none;
+}
+
 /* Smartphones ----------- */
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 689px) {
@@ -216,6 +219,10 @@ p {
     /* location bottom model */
     #locationoffcanvas {
         height: 47%;
+    }
+     /* langauge option in mobile */
+     .langmob{
+        display: block;
     }
 }
 
@@ -237,6 +244,7 @@ p {
     .locationsection {
         display: none;
     }
+   
 }
 
 /* Desktops and laptops ----------- */
@@ -247,6 +255,9 @@ p {
         width: 30%;
         margin-top: -4px;
         margin-left: 1rem;
+    }
+    #langchange:hover>.dropdown-menu {
+        display: block;
     }
     /* language change in desktop */
     #langchangeitems {
@@ -260,4 +271,5 @@ p {
     .locationsection {
         display: none;
     }
+
 }

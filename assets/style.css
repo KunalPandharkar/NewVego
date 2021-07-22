@@ -249,6 +249,11 @@ p {
 .usernamepedit p {
     font-size: 0.82rem;
 }
+.bd-example button{
+    background: var(--green);
+    color: white;
+}
+
 
 /* Smartphones ----------- */
 

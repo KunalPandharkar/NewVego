@@ -44,7 +44,8 @@
                         aria-expanded="false">
                         En
                     </a>
-                    <ul id="langchangeitems" class="dropdown-menu  dropdown-menu-end dropdown-menu-lg-start" aria-labelledby="dropdownMenu2">
+                    <ul id="langchangeitems" class="dropdown-menu  dropdown-menu-end dropdown-menu-lg-start"
+                        aria-labelledby="dropdownMenu2">
                         <li><button class="dropdown-item" type="button">Marathi</button></li>
                         <li><button class="dropdown-item" type="button">Japanese</button></li>
                         <li><button class="dropdown-item" type="button">German</button></li>
@@ -165,7 +166,7 @@
                     </span>
                 </a>
                 <div id="mobsidebarusername">
-                    <p><em>Hello, Kunal Pandharkar</em></p>
+                    <p class="text-secondary"><em>Hello, Kunal Pandharkar</em></p>
                 </div>
             </div>
             <!-- sidebar header end -->
@@ -273,6 +274,51 @@
 
     </section>
     <!-- header - navigation bar end -->
+
+
+    <!-- home carousel -->
+    <section>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mobile">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+            </div>
+
+            <div class="carousel-inner pc">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/user/erondu/1366x304" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- home carousel end -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

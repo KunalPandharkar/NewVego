@@ -1,6 +1,6 @@
 /* css common for all */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +16,12 @@ a, a:hover {
 :root {
     --saffron: #FF9933;
     --white: #FFFFFF;
-    --lightgreen: #B0EACD;
+    --navyblue: #000080;
     --green: #138808;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 p {
@@ -134,8 +138,9 @@ p {
     padding: 0.5rem;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
-    border: 1px solid var(--lightgreen);
-    background-color: var(--lightgreen);
+    border: 1px solid var(--navyblue);
+    background-color: var(--navyblue);
+    color: white;
 }
 
 /* mobile sidebar */
@@ -171,8 +176,9 @@ p {
 }
 
 .mobno {
-    color: var(--lightgreen);
+    color: var(--white);
     font-size: 0.9rem;
+    opacity: 0.5;
 }
 
 /* sidebar link items */
@@ -281,8 +287,6 @@ p {
     font-size: 0.8rem;
     margin-top: 0.2rem;
 }
-
-
 
 /* Smartphones ----------- */
 

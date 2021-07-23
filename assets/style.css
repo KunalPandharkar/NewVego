@@ -31,13 +31,14 @@ p {
 
 /* all section color */
 
-.sectioncolor{
+.sectioncolor {
     background-color: var(--white);
 }
+
 /* all site heading */
 
 .siteheading {
-    padding: 1.1rem 0rem 0rem 0.8rem;
+    padding: 1.2rem 0rem 0rem 0.8rem;
 }
 
 .siteheading h6 {
@@ -241,7 +242,7 @@ p {
 }
 
 .cityname {
-    margin-top:0.2rem;
+    margin-top: 0.2rem;
     font-size: 0.8rem;
 }
 
@@ -301,15 +302,12 @@ p {
 
 /* vego services */
 
-
-
 .vegoservices {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-   
 }
 
 .service {
@@ -328,6 +326,54 @@ p {
 .service p {
     font-size: 0.8rem;
     margin-top: 0.2rem;
+}
+
+/* Nearby Garages */
+
+.scroll {
+    margin: auto;
+}
+
+.horizontal-scroll {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
+.scroll-container {
+    display: block;
+    white-space: nowrap;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.shopcard {
+    display: inline-block;
+    height: auto;
+    width: 7.5rem;
+    margin: 1rem 0rem 1rem 0.8rem;
+    border: none;
+    background-color: var(--blue);
+}
+
+.shopcard img {
+    height: 6rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.shopcard h5 {
+    white-space: pre-line;
+    font-size: 0.9rem;
+    padding: 0.4rem 0rem 0rem 0.5rem;
+    font-weight: 550;
+    margin: 0;
+}
+
+.shopcard small {
+    padding: 0.4rem 0rem 0rem 0.5rem;
+    font-size: 0.7rem;
 }
 
 /* Smartphones ----------- */

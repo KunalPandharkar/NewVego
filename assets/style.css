@@ -350,11 +350,12 @@ p {
 
 .shopcard {
     display: inline-block;
-    height: auto;
-    width: 7.5rem;
-    margin: 1rem 0rem 1rem 0.8rem;
+    width: 9rem;
+    height: 8rem;
+    margin: 1rem 0rem 2rem 0.8rem;
     border: none;
     background-color: var(--blue);
+   
 }
 
 .shopcard img {
@@ -365,14 +366,14 @@ p {
 
 .shopcard h5 {
     white-space: pre-line;
-    font-size: 0.9rem;
-    padding: 0.4rem 0rem 0rem 0.5rem;
+    font-size: 0.73rem;
+    padding: 0.4rem 0rem 0rem 0.2rem;
     font-weight: 550;
     margin: 0;
 }
 
 .shopcard small {
-    padding: 0.4rem 0rem 0rem 0.5rem;
+    padding: 0.4rem 0rem 0rem 0.2rem;
     font-size: 0.7rem;
 }
 

@@ -218,15 +218,15 @@ p {
 }
 
 .locationicon {
-    height: 2.4rem;
-    width: 3.6rem;
+    height: 2.5rem;
+    width: 4rem;
     background-color: var(--green);
     border-radius: 5px;
 }
 
 .locationicon span {
     color: white;
-    padding: 0.3rem 0rem 0rem 0rem;
+    padding: 0.4rem 0rem 0rem 0rem;
 }
 
 .cityimage img {
@@ -236,6 +236,7 @@ p {
 }
 
 .cityname {
+    margin-top:0.2rem;
     font-size: 0.8rem;
 }
 

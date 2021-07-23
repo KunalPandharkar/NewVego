@@ -376,6 +376,12 @@ p {
     font-size: 0.7rem;
 }
 
+.servicebrand{
+    font-weight: 550;
+    padding: 0.4rem 0rem 0rem 0.2rem;
+    font-size: 0.7rem;
+}
+
 /* Smartphones ----------- */
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 689px) {

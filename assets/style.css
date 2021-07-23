@@ -14,10 +14,10 @@ a, a:hover {
 }
 
 :root {
-    --red: #FF9933;
-    --white: #F9FCFB;
+    --saffron: #FF9933;
+    --white: #FFFFFF;
     --lightgreen: #B0EACD;
-    --green: #21BF73;
+    --green: #138808;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
 /* cutom header */
 
 .redbg {
-    background-color: var(--red);
+    background-color: var(--saffron);
     color: white;
 }
 
@@ -264,8 +264,8 @@ p {
 
 .service {
     padding: 1rem 0rem 0rem 0rem;
-    background-color: var(--green);
-    color: white;
+    background-color: var(--white);
+    color: black;
     height: 6rem;
     width: 6rem;
     margin-bottom: 0.6rem;
@@ -279,11 +279,12 @@ p {
 
 .service p {
     font-size: 0.8rem;
-    margin-top:0.2rem;
+    margin-top: 0.2rem;
 }
 
 .emg {
-    background-color: var(--red);
+    background-color: var(--green);
+    color:white;
 }
 
 /* Smartphones ----------- */

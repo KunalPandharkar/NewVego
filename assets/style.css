@@ -51,8 +51,7 @@ p {
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-  
+}
 
 /* header start */
 
@@ -190,6 +189,56 @@ p {
     opacity: 0.5;
 }
 
+/* location cities */
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 4.5rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    color: #6c757d;
+    padding: 0.7rem 0.6rem;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.locationicon {
+    height: 2.4rem;
+    width: 3.6rem;
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+.locationicon span {
+    color: white;
+    padding: 0.3rem 0rem 0rem 0rem;
+}
+
+.cityimage img {
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 5px;
+}
+
+.cityname {
+    font-size: 0.8rem;
+}
+
 /* sidebar link items */
 
 #mobsidebaritems {
@@ -219,29 +268,6 @@ p {
 .mobsidebaritem a {
     margin-bottom: 1.1rem;
     font-weight: 500;
-}
-
-/* location section */
-
-.locationsection {
-    display: flex;
-    align-items: center;
-    box-shadow: 0 2px 10px rgb(0 0 0 / 11%);
-    background-color: var(--white);
-}
-
-.locationsection p {
-    font-size: 0.9rem;
-    padding: 0.7rem 0rem 0.7rem 0.3rem;
-}
-
-.locationsection .gpsicon {
-    font-size: 1.4rem;
-    padding: 0.5rem 0rem 0.5rem 0.5rem;
-}
-
-.locationsection .expand {
-    font-size: 1rem;
 }
 
 /* langauge option in mobile */
@@ -347,10 +373,6 @@ p {
     #locationoffcanvas {
         height: 41%;
     }
-    /* location sidebar under header */
-    .locationsection {
-        display: none;
-    }
     /* home carousel */
     .carousel-item {
         height: 15rem;
@@ -380,10 +402,6 @@ p {
     /* location sidebar bottom */
     #locationoffcanvas {
         height: 41%;
-    }
-    /* location sidebar under header */
-    .locationsection {
-        display: none;
     }
     /* Declare heights because of positioning of img element */
     .carousel-item {

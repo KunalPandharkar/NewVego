@@ -29,6 +29,11 @@ p {
     margin: 0;
 }
 
+/* all section color */
+
+.sectioncolor{
+    background-color: var(--white);
+}
 /* all site heading */
 
 .siteheading {
@@ -43,7 +48,7 @@ p {
     border-top: 2px solid var(--green);
     width: 3rem;
     margin-left: 0.94rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .b-example-divider {
@@ -296,18 +301,19 @@ p {
 
 /* vego services */
 
+
+
 .vegoservices {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
-    background-color: var(--white);
+   
 }
 
 .service {
     padding: 1rem 0rem 0rem 0rem;
-    background-color: var(--white);
     color: black;
     height: 6rem;
     width: 7.2rem;

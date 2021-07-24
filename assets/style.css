@@ -245,7 +245,8 @@ p {
 
 .cityname {
     margin-top: 0.2rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    text-transform: uppercase;
 }
 
 /* sidebar link items */
@@ -382,7 +383,7 @@ p {
 .servicebrand {
     padding: 0.4rem 0rem 0rem 0.2rem;
     font-size: 0.7rem;
-    color: var(--saffron);
+    color: var(--navyblue);
 }
 
 .shopinfocard {

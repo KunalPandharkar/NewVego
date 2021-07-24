@@ -29,6 +29,9 @@ p {
     margin: 0;
 }
 
+input::placeholder {
+    font-size: 14px;
+}
 /* all section color */
 
 .sectioncolor {
@@ -103,9 +106,7 @@ p {
     justify-content: center;
 }
 
-.searchbargrp input::placeholder {
-    font-size: 14px;
-}
+
 
 /* language change */
 

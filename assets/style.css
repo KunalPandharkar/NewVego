@@ -42,7 +42,11 @@ p {
 }
 
 .siteheading h6 {
-    font-weight: 550;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2a2c39;
+    margin-bottom: 7px;
+    font-size: 0.8rem;
 }
 
 .headingunderline {
@@ -99,7 +103,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 
 .searchbargrp input::placeholder {
     font-size: 14px;
@@ -321,7 +324,8 @@ p {
 }
 
 .service img {
-    height: 3rem;
+    height: 2.5rem;
+    width: 4rem;
 }
 
 .service p {

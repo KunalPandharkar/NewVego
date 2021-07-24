@@ -86,7 +86,7 @@ p {
 .searchbargrp {
     width: 100%;
     background-color: var(--blue);
-    padding: 7px 0px 0px 0px;
+    padding: 0.8rem 0.1rem 0rem 0.1rem;
 }
 
 .searchbargrp input {
@@ -99,6 +99,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .searchbargrp input::placeholder {
     font-size: 14px;
@@ -167,7 +168,7 @@ p {
 }
 
 #mobsidebarheader {
-    background-color: var(--green);
+    background-color: var(--navyblue);
     padding: 0.8rem;
     padding-top: 0.9rem;
 }
@@ -232,7 +233,7 @@ p {
 
 .locationicon span {
     color: white;
-    padding: 0.4rem 0rem 0rem 0rem;
+    padding: 0.5rem 0rem 0rem 0rem;
 }
 
 .cityimage img {
@@ -376,7 +377,7 @@ p {
     font-size: 0.7rem;
 }
 
-.servicebrand{
+.servicebrand {
     font-weight: 550;
     padding: 0.4rem 0rem 0rem 0.2rem;
     font-size: 0.7rem;

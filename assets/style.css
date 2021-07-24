@@ -202,7 +202,7 @@ p {
 .nav-scroller {
     position: relative;
     z-index: 2;
-    height: 4.8rem;
+    height: 4.6rem;
     overflow-y: hidden;
 }
 

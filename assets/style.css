@@ -171,10 +171,8 @@ p {
 }
 
 #mobsidebarheader {
-    background-color: var(--navyblue);
     padding: 0.8rem;
     padding-top: 0.9rem;
-    opacity: 0.7;
 }
 
 #mobsidebarheader a {
@@ -205,7 +203,7 @@ p {
 .nav-scroller {
     position: relative;
     z-index: 2;
-    height: 4.5rem;
+    height: 4.8rem;
     overflow-y: hidden;
 }
 
@@ -357,16 +355,16 @@ p {
 .shopcard {
     display: inline-block;
     width: 9rem;
-    height: 8rem;
+    height: 9rem;
     margin: 1rem 0rem 2rem 0.8rem;
-    border: none;
     background-color: var(--blue);
 }
 
 .shopcard img {
     height: 6rem;
     width: 100%;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .shopcard h5 {
@@ -386,6 +384,15 @@ p {
     font-weight: 550;
     padding: 0.4rem 0rem 0rem 0.2rem;
     font-size: 0.7rem;
+}
+
+.shopinfocard {
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--navyblue);
+    padding: 0rem 0.1rem 0.5rem 0.2rem;
+    opacity: 0.5;
 }
 
 /* Smartphones ----------- */

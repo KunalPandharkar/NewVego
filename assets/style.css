@@ -32,6 +32,7 @@ p {
 input::placeholder {
     font-size: 14px;
 }
+
 /* all section color */
 
 .sectioncolor {
@@ -105,8 +106,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
 }
-
-
 
 /* language change */
 
@@ -407,9 +406,214 @@ input::placeholder {
 .findserviceform .form-text {
     font-size: 0.7rem;
 }
-.findserviceform button{
+
+.findserviceform button {
     color: var(--white);
     background-color: var(--green);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    padding: 0 0 0px 0;
+    font-size: 14px;
+    background: #fff;
+}
+
+#footer #feedbackform {
+    color: white;
+}
+
+#footer .footer-top {
+    padding: 3rem 0 1.875rem 0;
+    background: var(--navyblue);
+}
+
+#footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info img {
+    margin: 0 0 10px -5px;
+    padding: 2px 0 2px 0;
+    height: 3rem;
+}
+
+#footer .footer-top .footer-info p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.footer-info img {
+    height: 27px;
+}
+
+#footer .footer-top .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .footer-top .social-links a i {
+    line-height: 0;
+    font-size: 16px;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #0a98c0;
+    color: #fff;
+}
+
+@media (max-width: 574px) {
+    #footer .footer-top .social-links a {
+        margin-bottom: 25px;
+    }
+}
+
+#footer .footer-top h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+    color: white;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 9px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: white;
+    padding-top: 2px;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    color: #0494fc;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+    line-height: 26px;
+}
+
+#footer .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#footer .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+#footer .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#footer .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+#footer .php-email-form input, #footer .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #dce1ec;
+    font-size: 14px;
+}
+
+#footer .php-email-form input:focus, #footer .php-email-form textarea:focus {
+    border-color: #0494fc;
+}
+
+#footer .php-email-form input {
+    padding: 10px 15px;
+}
+
+#footer .php-email-form textarea {
+    padding: 12px 15px;
+}
+
+#footer .php-email-form button[type="submit"] {
+    background: var(--green);
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 30px;
+    color: #ffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* Smartphones ----------- */

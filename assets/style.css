@@ -597,8 +597,6 @@ input::placeholder {
     cursor: pointer;
 }
 
-
-
 /* Smartphones ----------- */
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 689px) {

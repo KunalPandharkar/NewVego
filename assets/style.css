@@ -14,11 +14,10 @@ a, a:hover {
 }
 
 :root {
-    --saffron: #209586;
+    --teal: #209586;
     --white: #FFFFFF;
     --navyblue: #06192d;
-    --green: #e3324a;
-    --greenbutton: #138808;
+    --red: #e3324a;
 }
 
 body {
@@ -55,7 +54,7 @@ input::placeholder {
 }
 
 .headingunderline {
-    border-top: 2px solid var(--green);
+    border-top: 2px solid var(--red);
     width: 3rem;
     margin-left: 0.94rem;
     margin-bottom: 0.5rem;
@@ -72,7 +71,7 @@ input::placeholder {
 /* cutom header */
 
 .redbg {
-    background-color: var(--green);
+    background-color: var(--red);
     color: white;
 }
 
@@ -229,7 +228,7 @@ input::placeholder {
 .locationicon {
     height: 2.5rem;
     width: 4rem;
-    background-color: var(--saffron);
+    background-color: var(--teal);
     border-radius: 5px;
 }
 
@@ -300,7 +299,7 @@ input::placeholder {
 }
 
 .bd-example button {
-    background: var(--greenbutton);
+    background: var(--teal);
     color: white;
 }
 
@@ -410,7 +409,7 @@ input::placeholder {
 
 .findserviceform button {
     color: var(--white);
-    background-color: var(--greenbutton);
+    background-color: var(--teal);
 }
 
 /*--------------------------------------------------------------
@@ -472,7 +471,7 @@ input::placeholder {
 }
 
 #footer .footer-top .social-links a:hover {
-    background: var(--green);
+    background: var(--red);
     color: #fff;
 }
 
@@ -553,7 +552,7 @@ input::placeholder {
 }
 
 #footer .php-email-form button[type="submit"] {
-    background: var(--greenbutton);
+    background: var(--teal);
     border: 0;
     border-radius: 3px;
     padding: 8px 30px;
@@ -583,8 +582,8 @@ input::placeholder {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-    background: var(--greenbutton);
-    border: 1px solid var(--greenbutton);
+    background: var(--teal);
+    border: 1px solid var(--teal);
     width: 35%;
     padding: 6px 0;
     text-align: center;

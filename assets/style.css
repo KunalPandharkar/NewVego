@@ -14,10 +14,10 @@ a, a:hover {
 }
 
 :root {
-    --saffron: #FF9933;
+    --saffron: #e3324a;
     --white: #FFFFFF;
-    --navyblue: #000080;
-    --green: #138808;
+    --navyblue: #06192d;
+    --green: #209586;
 }
 
 body {

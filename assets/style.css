@@ -471,7 +471,7 @@ input::placeholder {
 }
 
 #footer .footer-top .social-links a:hover {
-    background: #0a98c0;
+    background: var(--green);
     color: #fff;
 }
 
@@ -528,18 +528,6 @@ input::placeholder {
     line-height: 26px;
 }
 
-#footer .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-#footer .php-email-form .error-message br+br {
-    margin-top: 25px;
-}
-
 #footer .php-email-form .sent-message {
     display: none;
     color: #fff;
@@ -547,26 +535,6 @@ input::placeholder {
     text-align: center;
     padding: 15px;
     font-weight: 600;
-}
-
-#footer .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-}
-
-#footer .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
 }
 
 #footer .php-email-form input, #footer .php-email-form textarea {
@@ -577,7 +545,7 @@ input::placeholder {
 }
 
 #footer .php-email-form input:focus, #footer .php-email-form textarea:focus {
-    border-color: #0494fc;
+    border-color: var(--navyblue);
 }
 
 #footer .php-email-form input {
@@ -598,23 +566,38 @@ input::placeholder {
     cursor: pointer;
 }
 
-@-webkit-keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+#footer #copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 0.8rem;
 }
 
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+#footer .footer-top .footer-newsletter {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 0.8rem;
 }
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+    border: 1px solid #d9dde6;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+    background: var(--green);
+    border: 1px solid var(--green);
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 
 /* Smartphones ----------- */
 

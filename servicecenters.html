@@ -151,94 +151,7 @@
         </nav>
 
 
-        <!-- user location section -->
-        <div class="nav-scroller bg-body ">
-            <nav class="nav nav-underline " aria-label="Secondary navigation">
-                <div class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#locationoffcanvas"
-                    aria-controls="locationoffcanvas">
-                    <div class="locationicon">
-                        <span class="material-icons ">
-                            my_location
-                        </span>
-                    </div>
-                    <p class="cityname">Near Me</p>
-                </div>
 
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/Chennai.webp" alt="">
-                    </div>
-                    <p class="cityname">Aurangabad</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/delhi.webp" alt="">
-                    </div>
-                    <p class="cityname">Purna</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/bangalore.webp" alt="">
-                    </div>
-                    <p class="cityname">Pune</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/Chennai.webp" alt="">
-                    </div>
-                    <p class="cityname">Hydrebad</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/delhi.webp" alt="">
-                    </div>
-                    <p class="cityname">Parbhani</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/bangalore.webp" alt="">
-                    </div>
-                    <p class="cityname">Nanded</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/Chennai.webp" alt="">
-                    </div>
-                    <p class="cityname">Aurangabad</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/delhi.webp" alt="">
-                    </div>
-                    <p class="cityname">Purna</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/bangalore.webp" alt="">
-                    </div>
-                    <p class="cityname">Pune</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/Chennai.webp" alt="">
-                    </div>
-                    <p class="cityname">Hydrebad</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/delhi.webp" alt="">
-                    </div>
-                    <p class="cityname">Parbhani</p>
-                </div>
-                <div class="nav-link">
-                    <div class="cityimage">
-                        <img src="assets/images/bangalore.webp" alt="">
-                    </div>
-                    <p class="cityname">Nanded</p>
-                </div>
-            </nav>
-        </div>
-        <!-- end user location section -->
 
         <!-- sidebar in mobile start -->
         <div class="offcanvas offcanvas-start" tabindex="-1" id="mob-sidebar" aria-labelledby="mob-sidebarLabel">
@@ -357,317 +270,348 @@
     </section>
     <!-- header - navigation bar end -->
 
-    <div class="b-example-divider"></div>
-    <!-- vego services -->
-    <section class="sectioncolor">
-        <div class="siteheading">
-            <h6>
-                Our Services
-            </h6>
-        </div>
-        <div class="headingunderline"></div>
-        <div class="vegoservices text-center">
-            <div class="service emg">
-                <img src="assets/images/emergency.png" alt="">
-                <p>Emergency</p>
+    <!-- filter -->
+    <div class="filtercard sticky1" id="filtersection">
+        <div class="sort" onclick="sortsidebar_open()">
+            <div class="sorticon">
+                <span class="material-icons">
+                    import_export
+                </span>
             </div>
-            <div class="service emg">
-                <img src="assets/images/schedule.png" alt="">
-                <p>Schedule Service</p>
-            </div>
-            <div class="service">
-                <img src="assets/images/garage.png" alt="">
-                <p>Garages</p>
-            </div>
-            <div class="service">
-                <img src="assets/images/service-center.png" alt="">
-                <p>Service Centers</p>
-            </div>
-
-            <div class="service">
-                <img src="assets/images/car-wash.png" alt="">
-                <p>Vehicle Wash</p>
-            </div>
-            <div class="service">
-                <img src="assets/images/workshop.png" alt="">
-                <p>Workshop</p>
+            <div class="sorttxt">
+                <p>Sort</p>
             </div>
         </div>
-
-    </section>
-    <!-- end vego services -->
-
-    <div class="b-example-divider"></div>
-
-    <!-- nearby garage -->
-    <section class="sectioncolor pb-2">
-        <div class="siteheading">
-            <h6>
-                Nearby Garages
-            </h6>
+        <div class="filter" onclick="filtersidebar_open()">
+            <div class="sorticon">
+                <span class="material-icons">
+                    sort
+                </span>
+            </div>
+            <div class="sorttxt">
+                <p>Filter</p>
+            </div>
         </div>
-        <div class="headingunderline"></div>
+    </div>
+    <!-- end filter -->
 
 
-        <div class="topshops">
+    <!-- garage cards  -->
+    <section class="garagescards">
 
 
-            <div class="scroll">
-                <div class="horizontal-scroll">
-                    <div class="scroll-container">
-
-                        <div class="shopcard">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class="text-seoondary servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage2.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage3.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage4.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard mx-3">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
+        <div class="garage defaultcard" id="servicenter">
+            <a href="garageinfo.html">
+                <div class="firstrow">
+                    <div class="garageimg">
+                        <img src="assets/images/garage1.jpg" alt="">
                     </div>
-                    <div class="scroll-container">
+                    <div class="garageinfo">
+                        <div class="garagename">
+                            <p>Arihant Service Center</p>
+                        </div>
+                        <div class="garageratings">
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                        </div>
+                        <div class="garageaddress">
 
-                        <div class="shopcard">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage2.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage3.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage4.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
-                        </div>
-                        <div class="shopcard mx-3">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small>2-Wheeler</small>
-                                <span class=" servicebrand">3km </span>
-                            </div>
+                            <p>
+                                <span class="material-icons">
+                                    near_me
+                                </span>
+                                Kunal Niwas , New Adarsh Colony , Purna , Dist Parbhani 431512
+                            </p>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
-    <!-- end nearby garages -->
-    <div class="b-example-divider"></div>
-
-    <!-- nearby service centers -->
-    <section class="sectioncolor pb-2">
-        <div class="siteheading">
-            <h6>
-                Nearby Service Centers
-            </h6>
-        </div>
-        <div class="headingunderline"></div>
-
-
-        <div class="topshops">
-
-
-            <div class="scroll">
-                <div class="horizontal-scroll">
-                    <div class="scroll-container">
-
-                        <div class="shopcard">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage2.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage3.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage4.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard mx-3">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
+                <div class="secondrow">
+                    <div class="garagestatus" id="thirdrow">
+                        <p>Service Center</p>
                     </div>
-                    <div class="scroll-container">
+                    <div class="garagedistance" id="thirdrow">
+                        <p>Authorized</p>
+                    </div>
+                    <div class="garagetype" id="thirdrow">
+                        <p>Honda</p>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus">
+                        <p>Open Now</p>
+                    </div>
+                    <div class="garagedistance">
+                        <p>2.5 KM</p>
+                    </div>
+                    <div class="garagetype">
+                        <p>2-Wheeler</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="garage defaultcard" id="servicenter">
+            <a href="garageinfo.html">
+                <div class="firstrow">
+                    <div class="garageimg">
+                        <img src="assets/images/garage2.jpg" alt="">
+                    </div>
+                    <div class="garageinfo">
+                        <div class="garagename">
+                            <p>KP Service Center</p>
+                        </div>
+                        <div class="garageratings">
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                        </div>
+                        <div class="garageaddress">
 
-                        <div class="shopcard">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage2.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage3.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard">
-                            <img src="assets/images/garage4.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
-                        </div>
-                        <div class="shopcard mx-3">
-                            <img src="assets/images/garage1.jpg" alt="">
-                            <div class="shopinfocard">
-                                <h5>Arihant Honda Garage</h5>
-                                <small class="text-secondary">2-Wheeler</small>
-                                <span class="text-secondary fw-bold  servicebrand">Honda</span>
-                                <span class=" servicebrand">3km</span>
-                            </div>
+                            <p>
+                                <span class="material-icons">
+                                    near_me
+                                </span>
+                                Kunal Niwas , New Adarsh Colony , Purna , Dist Parbhani 431512
+                            </p>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-
+                <div class="secondrow">
+                    <div class="garagestatus" id="thirdrow">
+                        <p>Service Center</p>
+                    </div>
+                    <div class="garagedistance" id="thirdrow">
+                        <p>Local</p>
+                    </div>
+                    <div class="garagetype" id="thirdrow">
+                        <p>Honda</p>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus">
+                        <p>Open Now</p>
+                    </div>
+                    <div class="garagedistance">
+                        <p>3.5 KM</p>
+                    </div>
+                    <div class="garagetype">
+                        <p>4-Wheeler</p>
+                    </div>
+                </div>
+            </a>
         </div>
+        <div class="garage defaultcard" id="servicenter">
+            <a href="garageinfo.html">
+                <div class="firstrow">
+                    <div class="garageimg">
+                        <img src="assets/images/garage3.jpg" alt="">
+                    </div>
+                    <div class="garageinfo">
+                        <div class="garagename">
+                            <p>Krushna Service Center</p>
+                        </div>
+                        <div class="garageratings">
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+
+                        </div>
+                        <div class="garageaddress">
+
+                            <p>
+                                <span class="material-icons">
+                                    near_me
+                                </span>
+                                Kunal Niwas , New Adarsh Colony , Purna , Dist Parbhani 431512
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus" id="thirdrow">
+                        <p>Service Center</p>
+                    </div>
+                    <div class="garagedistance" id="thirdrow">
+                        <p>Local</p>
+                    </div>
+                    <div class="garagetype" id="thirdrow">
+                        <p>Honda</p>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus">
+                        <p>Open Now</p>
+                    </div>
+                    <div class="garagedistance">
+                        <p>2.5 KM</p>
+                    </div>
+                    <div class="garagetype">
+                        <p>2-Wheeler</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="garage defaultcard" id="servicenter">
+            <a href="garageinfo.html">
+                <div class="firstrow">
+                    <div class="garageimg">
+                        <img src="assets/images/garage1.jpg" alt="">
+                    </div>
+                    <div class="garageinfo">
+                        <div class="garagename">
+                            <p>Arihant Honda Garage</p>
+                        </div>
+                        <div class="garageratings">
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                        </div>
+                        <div class="garageaddress">
+
+                            <p>
+                                <span class="material-icons">
+                                    near_me
+                                </span>
+                                Kunal Niwas , New Adarsh Colony , Purna , Dist Parbhani 431512
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus" id="thirdrow">
+                        <p>Service Center</p>
+                    </div>
+                    <div class="garagedistance" id="thirdrow">
+                        <p>Local</p>
+                    </div>
+                    <div class="garagetype" id="thirdrow">
+                        <p>Honda</p>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus">
+                        <p>Open Now</p>
+                    </div>
+                    <div class="garagedistance">
+                        <p>2.5 KM</p>
+                    </div>
+                    <div class="garagetype">
+                        <p>2-Wheeler</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="garage defaultcard" id="servicenter">
+            <a href="garageinfo.html">
+                <div class="firstrow">
+                    <div class="garageimg">
+                        <img src="assets/images/garage2.jpg" alt="">
+                    </div>
+                    <div class="garageinfo">
+                        <div class="garagename">
+                            <p>Arihant Honda Garage</p>
+                        </div>
+                        <div class="garageratings">
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                            <span class="material-icons">
+                                star
+                            </span>
+                        </div>
+                        <div class="garageaddress">
+
+                            <p>
+                                <span class="material-icons">
+                                    near_me
+                                </span>
+                                Kunal Niwas , New Adarsh Colony , Purna , Dist Parbhani 431512
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus" id="thirdrow">
+                        <p>Service Center</p>
+                    </div>
+                    <div class="garagedistance" id="thirdrow">
+                        <p>Local</p>
+                    </div>
+                    <div class="garagetype" id="thirdrow">
+                        <p>Honda</p>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="garagestatus">
+                        <p>Open Now</p>
+                    </div>
+                    <div class="garagedistance">
+                        <p>2.5 KM</p>
+                    </div>
+                    <div class="garagetype">
+                        <p>2-Wheeler</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
 
     </section>
-    <!-- end service centers -->
-
-    <div class="b-example-divider"></div>
-
-    <!-- find right service center -->
-    <section class=" sectioncolor pb-2">
-        <div class="siteheading">
-            <h6>
-                Find The Right Service Center
-            </h6>
-        </div>
-        <div class="headingunderline"></div>
-        <div class="findserviceform">
-            <form action="">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Brand</label>
-                    <input type="email" placeholder="Honda" class="form-control" id="exampleInputEmail1"
-                        aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">make sure you have entered correct location</div>
-                </div>
-                <label for="inputState" class="form-label">Type Wheeler</label>
-                <select id="inputState" class="form-select">
-                    <option>two-wheeler</option>
-                    <option>three-wheeler</option>
-                    <option>four-wheeler</option>
-                    <option>twleve-wheeler</option>
-                    <option>other-wheeler</option>
-
-                </select>
-                <div class="d-grid mt-4">
-                    <button class="btn btn-sm" type="button">Find Service Center</button>
-                </div>
-            </form>
-        </div>
-
-    </section>
-    <!-- end find right service center -->
+    <!-- garage cards end -->
 
 
     <div class="b-example-divider"></div>

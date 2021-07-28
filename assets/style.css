@@ -448,6 +448,10 @@ input::placeholder {
 
 /* garages card garagelist */
 
+.shopcardgaragelist {
+    background-color: var(--white);
+}
+
 .shoprow1 {
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
@@ -456,6 +460,7 @@ input::placeholder {
 .shoprow2 {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 0.4rem;
 }
 
 .shopimg img {
@@ -467,13 +472,13 @@ input::placeholder {
 }
 
 .shopname h5 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0.1rem;
     font-weight: 600
 }
 
 .shopratings span {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: var(--teal);
 }
 

@@ -155,8 +155,8 @@ input::placeholder {
     padding: 0.5rem;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
-    border: 1px solid var(--navyblue);
-    background-color: var(--navyblue);
+    border: 1px solid var(--teal);
+    background-color: var(--teal);
     color: white;
 }
 
@@ -172,6 +172,7 @@ input::placeholder {
 #mobsidebarheader {
     padding: 0.8rem;
     padding-top: 0.9rem;
+    background-color: var(--teal);
 }
 
 #mobsidebarheader a {
@@ -584,195 +585,6 @@ input::placeholder {
     color: #fff;
     transition: 0.3s;
     cursor: pointer;
-}
-
-/* filter and sort */
-
-.filtercard {
-    display: flex;
-    padding-left: 0.3rem;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
-    background-color: white;
-    width: 100%;
-    border-top: 1px solid #e9e9eb;
-    height: 3rem;
-}
-
-.filtercard img {
-    height: 1.2rem;
-    margin: 0px 5px 0px 8px;
-}
-
-.filtercard p {
-    font-size: 0.9rem;
-    margin-top: 3px;
-    margin-left: 2px;
-    font-weight: 580;
-}
-
-.sort {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    border-right: 1px solid #e9e9eb;
-    margin-top: 0.6rem;
-}
-
-.filter {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin-top: 0.6rem;
-}
-
-.sorthead p {
-    margin-top: 4px;
-    margin-bottom: 7px;
-    color: grey;
-}
-
-.sortlist {
-    margin-top: 12px;
-    font-size: 13px;
-}
-
-.sortlist label {
-    margin-top: 3px;
-}
-
-.filteroptions {
-    display: flex;
-    width: 100%;
-}
-
-#leftoption {
-    width: 59%;
-}
-
-#rightoption {
-    width: 41%;
-}
-
-.apply {
-    float: right;
-}
-
-.apply button {
-    background-color: #209586;
-    color: white;
-    font-size: 14px;
-    padding: 9px 12px 9px 12px;
-    margin-top: -11px;
-}
-
-.defaultcard {
-    background-color: white;
-    width: 98%;
-    margin-left: 1%;
-    margin-top: 0.3rem;
-    border-radius: 3px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
-}
-
-/* garages card */
-
-.serv-c {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    padding-top: 10px;
-}
-
-.firstrow {
-    display: flex;
-    width: 100%;
-    border-bottom: 1px solid #e9e9eb;
-}
-
-.garageimg {
-    width: 50%;
-    padding: 10px;
-}
-
-.garageinfo {
-    width: 50%;
-}
-
-.garageimg img {
-    height: 6.5rem;
-    width: 98%;
-}
-
-.garageratings span {
-    font-size: 0.8rem;
-    color: var(--teal)
-}
-
-.garagename p {
-    margin-bottom: 0;
-    font-size: 13px;
-    padding-top: 8px;
-    word-wrap: break-word;
-    font-weight: 600;
-}
-
-.garageaddress p {
-    font-size: 0.7rem;
-    word-wrap: break-word;
-    padding-top: 4px;
-    margin-bottom: 0;
-}
-
-.garageaddress span {
-    font-size: 0.7rem;
-}
-
-.secondrow {
-    width: 100%;
-    display: flex;
-    padding: 7px;
-}
-
-.garagestatus {
-    width: 33.3%;
-    text-align: center;
-}
-
-.garagedistance {
-    width: 33.3%;
-    text-align: center;
-}
-
-.garagetype {
-    width: 33.3%;
-    text-align: center;
-}
-
-.garagestatus p {
-    margin-bottom: 0;
-    font-size: 12px;
-    color: var(--teal);
-    font-weight: 500;
-}
-
-.garagedistance p {
-    margin-bottom: 0;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--red);
-}
-
-.garagetype p {
-    margin-bottom: 0;
-    font-size: 12px;
-    font-weight: 500;
-}
-
-#thirdrow p {
-    color: black;
-}
-
-#brand p {
-    font-weight: 600;
 }
 
 /* Smartphones ----------- */

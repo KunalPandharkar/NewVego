@@ -412,6 +412,92 @@ input::placeholder {
     background-color: var(--teal);
 }
 
+/* searchbar garagelist */
+
+.searchbargaragelist input[type="text"] {
+    font-size: 0.92rem;
+}
+
+#garagenavbar {
+    padding-top: 0;
+}
+
+.searchbargaragelist span {
+    font-size: 1.2rem;
+}
+
+.sortfilter {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+}
+
+.sort span {
+    font-size: 1.3rem;
+}
+
+.sort p {
+    font-size: 0.9rem;
+}
+
+/* garages card garagelist */
+
+.shoprow1 {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.shoprow2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shopimg img {
+    height: 6rem;
+}
+
+.shopinfo {
+    margin-left: 1rem;
+}
+
+.shopname h5 {
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    font-weight: 600
+}
+
+.shopratings span {
+    font-size: 0.9rem;
+    color: var(--teal);
+}
+
+.shopadress p {
+    font-size: 0.7rem;
+}
+
+.shopadress span {
+    font-size: 0.8rem;
+}
+
+.openorclose p {
+    font-size: 0.8rem;
+    color: var(--teal);
+}
+
+.distance p {
+    font-size: 0.8rem;
+}
+
+.typewheeler {
+    font-size: 0.8rem;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

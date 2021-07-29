@@ -494,8 +494,27 @@ input::placeholder {
     font-size: var(--fontmedium);
 }
 
+.deliverycharge p {
+    font-size: var(--fontmedium);
+    font-weight: 500;
+}
+
 .typewheeler {
     font-size: var(--fontmedium);
+}
+
+/* sort and filter canvas */
+
+#sortcanvas {
+    height: 50%;
+}
+
+#sortcanvas select {
+    margin-top:1rem;
+    font-size: var(--fontmedium);
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--teal);
 }
 
 /*--------------------------------------------------------------
@@ -527,7 +546,7 @@ input::placeholder {
 }
 
 #footer .footer-top .footer-info p {
-    font-size: var(--fontsmall);
+    font-size: var(--fontmedium);
     line-height: 24px;
     margin-bottom: 0;
     color: white;
@@ -653,7 +672,7 @@ input::placeholder {
 #footer .footer-top .footer-newsletter {
     margin-bottom: 30px;
     color: white;
-    font-size: var(--fontsmall);
+    font-size: var(--fontmedium);
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {

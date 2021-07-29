@@ -544,12 +544,9 @@ input::placeholder {
 }
 
 .registeruserform {
-    width: 96%;
-    margin-left: 2%;
+    width: 100%;
     padding: 1rem;
-    box-shadow: 2px 2px 10px lightgrey;
     border-radius: 5px;
-    background-color: var(--white);
 }
 .userprofile .card{
     box-shadow: 2px 2px 10px lightgrey;

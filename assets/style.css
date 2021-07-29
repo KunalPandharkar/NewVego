@@ -618,7 +618,7 @@ input[type="text"] {
 .typeofvehicles img {
     height: 2.5rem;
     top: 74%;
-    left: 15%;
+    left: 18%;
     transform: translate(-50%, -80%);
     position: absolute;
 }
@@ -626,7 +626,7 @@ input[type="text"] {
 .typeofvehicles span {
     font-size: var(--fontmedium);
     top: 32%;
-    left: 32%;
+    left: 33%;
     position: absolute;
 }
 

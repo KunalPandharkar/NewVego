@@ -462,7 +462,6 @@ input[type="text"] {
 .shoprow1 {
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
-
 }
 
 .shoprow2 {
@@ -529,9 +528,8 @@ input[type="text"] {
 #sortcanvas select {
     margin-top: 1rem;
     font-size: var(--fontmedium);
-    border: none;
     border-radius: 0;
-    border-bottom: 1px solid var(--teal);
+    border: 1px solid var(--teal);
 }
 
 #sortcanvas button {
@@ -595,6 +593,45 @@ input[type="text"] {
     margin-bottom: 0.8rem;
     font-size: var(--fontsmall);
     color: var(--navyblue);
+}
+
+/* emergency service page */
+
+.typeofvehicles {
+    margin-top: 1rem;
+}
+
+.typeofvehicles input[type="radio"] {
+    -webkit-appearance: none;
+}
+
+.typeofvehicles label {
+    height: 3.2rem;
+    width: 10rem;
+    box-shadow: 2px 2px 10px lightgrey;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.typeofvehicles img {
+    height: 2.5rem;
+    top: 74%;
+    left: 15%;
+    transform: translate(-50%, -80%);
+    position: absolute;
+}
+
+.typeofvehicles span {
+    font-size: var(--fontmedium);
+    top: 32%;
+    left: 32%;
+    position: absolute;
+}
+
+.typeofvehicles input[type="radio"]:checked+label {
+    background-color: grey;
 }
 
 /*--------------------------------------------------------------

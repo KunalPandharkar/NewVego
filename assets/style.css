@@ -21,6 +21,7 @@ a, a:hover {
     --fontsmall: 0.7rem;
     --fontmedium: 0.8rem;
     --fontlarge: 0.9rem;
+    --fontextrasmall: 0.6rem;
 }
 
 body {
@@ -135,7 +136,7 @@ input::placeholder {
 #desknavitems .navlinks {
     display: flex;
     align-items: center;
-    font-size: var(--fontmedium);
+    font-size: var(--fontlarge);
 }
 
 .navlinks .material-icons {
@@ -246,7 +247,7 @@ input::placeholder {
 
 .cityname {
     margin-top: 0.25rem;
-    font-size: var(--fontsmall);
+    font-size: var(--fontextrasmall);
     text-transform: uppercase;
 }
 
@@ -298,8 +299,6 @@ input::placeholder {
     font-size: var(--fontmedium);
 }
 
-
-
 /* vego services */
 
 .vegoservices {
@@ -324,7 +323,7 @@ input::placeholder {
 }
 
 .service p {
-    font-size: var(--fontmedium);
+    font-size: var(--fontsmall);
     margin-top: 0.3rem;
 }
 

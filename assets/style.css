@@ -631,7 +631,9 @@ input[type="text"] {
 }
 
 .typeofvehicles input[type="radio"]:checked+label {
-    background-color: grey;
+    background-color: #198754;
+    border-color: #198754;
+    color:white;
 }
 
 /*--------------------------------------------------------------

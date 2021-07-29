@@ -443,6 +443,7 @@ input[type="text"] {
 .sort {
     display: flex;
     align-items: center;
+  
 }
 
 .sort span {
@@ -461,7 +462,9 @@ input[type="text"] {
 
 .shoprow1 {
     display: flex;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #e9e9eb;
+    margin-bottom: 0.5rem;
 }
 
 .shoprow2 {
@@ -518,7 +521,7 @@ input[type="text"] {
 /* sort and filter canvas */
 
 #sortcanvas {
-    height: 35%;
+    height: 37%;
 }
 
 .sortinput {
@@ -531,6 +534,11 @@ input[type="text"] {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid var(--teal);
+}
+
+#sortcanvas button{
+    background-color: var(--teal);
+    color:white;
 }
 
 /* user profile  */

@@ -610,8 +610,8 @@ input[type="text"] {
     width: 10rem;
     box-shadow: 2px 2px 10px lightgrey;
     position: relative;
-    margin: auto;
-    border-radius: 10px;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    border-radius: 5px;
     transition: 0.5s;
 }
 
@@ -633,7 +633,12 @@ input[type="text"] {
 .typeofvehicles input[type="radio"]:checked+label {
     background-color: #198754;
     border-color: #198754;
-    color:white;
+    color: white;
+}
+
+.getservice button {
+    background-color: var(--teal);
+    color: white;
 }
 
 /*--------------------------------------------------------------

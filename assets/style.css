@@ -35,7 +35,13 @@ p {
 
 input::placeholder {
     font-size: var(--fontmedium);
+    
 }
+
+input[type="text"] {
+    font-size: var(--fontlarge);
+}
+
 
 #breadcrumbproductinfo {
     padding: 1rem;
@@ -421,9 +427,8 @@ input::placeholder {
 
 /* searchbar garagelist */
 
-.searchbargaragelist input[type="text"] {
-    font-size: var(--fontlarge);
-}
+
+
 
 #garagenavbar {
     padding-top: 0;
@@ -514,6 +519,7 @@ input::placeholder {
 .typewheeler {
     font-size: var(--fontmedium);
 }
+
 
 /* sort and filter canvas */
 

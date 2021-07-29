@@ -641,6 +641,10 @@ input[type="text"] {
     color: white;
 }
 
+.detectlocbtn button{
+    background-color: var(--red);
+    color:white
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

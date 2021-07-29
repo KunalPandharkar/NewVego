@@ -506,9 +506,11 @@ input::placeholder {
 /* sort and filter canvas */
 
 #sortcanvas {
-    height: 50%;
+    height: 35%;
 }
-
+.sortinput{
+    margin-top:2rem;
+}
 #sortcanvas select {
     margin-top:1rem;
     font-size: var(--fontmedium);

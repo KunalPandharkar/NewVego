@@ -37,6 +37,13 @@ input::placeholder {
     font-size: var(--fontmedium);
 }
 
+#breadcrumbproductinfo {
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
 /* all section color */
 
 .sectioncolor {
@@ -293,10 +300,15 @@ input::placeholder {
 
 .usernamepedit h5 {
     font-size: var(--fontlarge);
+    font-weight: 550;
 }
 
 .usernamepedit p {
     font-size: var(--fontmedium);
+}
+
+.editedtime {
+    font-size: var(--fontsmall);
 }
 
 /* vego services */
@@ -508,15 +520,39 @@ input::placeholder {
 #sortcanvas {
     height: 35%;
 }
-.sortinput{
-    margin-top:2rem;
+
+.sortinput {
+    margin-top: 2rem;
 }
+
 #sortcanvas select {
-    margin-top:1rem;
+    margin-top: 1rem;
     font-size: var(--fontmedium);
     border: none;
     border-radius: 0;
     border-bottom: 1px solid var(--teal);
+}
+
+/* user profile  */
+
+.youraccountformpartsdiv label {
+    font-size: var(--fontmedium);
+}
+
+.mandatoryfield {
+    color: rgb(199, 6, 6);
+}
+
+.registeruserform {
+    width: 96%;
+    margin-left: 2%;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px lightgrey;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+.userprofile .card{
+    box-shadow: 2px 2px 10px lightgrey;
 }
 
 /*--------------------------------------------------------------

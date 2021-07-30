@@ -631,20 +631,23 @@ input[type="text"] {
 }
 
 .typeofvehicles input[type="radio"]:checked+label {
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #20958596;
+    border-color: var(--teal);
+    opacity: 0.8;
     color: white;
 }
 
 .getservice button {
     background-color: var(--teal);
     color: white;
+    margin-top: 2rem;
 }
 
-.detectlocbtn button{
+.detectlocbtn button {
     background-color: var(--red);
-    color:white
+    color: white
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
